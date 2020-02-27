@@ -11,8 +11,8 @@
         <link rel="stylesheet" href="../assets/leaflet/leaflet.css"/>   
         <style>
             #map {
-                width:  500px;
-                height: 400px;
+                width:  100%;
+                height: 100%;
             }
         </style>
     </head>
@@ -24,7 +24,6 @@
 
             <div class="" uk-grid style="display: flex">
                 <div class="uk-width-1-2@m">
-                <br>
                     <div class="uk-card uk-card-default uk-card-body" id="map">
                         <script src="../assets/leaflet/jquery-1.9.1.min.js"></script> 
                         <script src="../assets/leaflet/leaflet.js"></script>
@@ -38,7 +37,7 @@
                             function init_map() {
                                 map = L.map('map').setView([-23.000679, -46.846548], 15);
                                 L.tileLayer('https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
-                                    attribution: 'Map data &copy; 2011 OpenStreetMap contributors, Imagery &copy; 2012 CloudMade',
+                                    attribution: '',
                                     key: 'BC9A493B41014CAABB98F0471D759707'
                                 }).addTo(map);
                             }
