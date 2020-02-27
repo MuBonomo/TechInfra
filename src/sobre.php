@@ -8,7 +8,7 @@
         <title></title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link rel="stylesheet" href="https://unpkg.com/leaflet@1.0.3/dist/leaflet.css" integrity="sha512-07I2e+7D8p6he1SIM+1twR5TIrhUQn9+I6yjqD53JQjFiMf8EtC93ty0/5vJTZGF8aAocvHYNEDJajGdNx1IsQ==" crossorigin=""/>   
+        <link rel="stylesheet" href="../assets/leaflet/leaflet.css"/>   
         <style>
             #map {
                 width:  500px;
@@ -26,8 +26,8 @@
                 <div class="uk-width-1-2@m">
                 <br>
                     <div class="uk-card uk-card-default uk-card-body" id="map">
-                        <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script> 
-                        <script src="https://unpkg.com/leaflet@1.0.3/dist/leaflet.js" integrity="sha512-A7vV8IFfih/D732iSSKi20u/ooOfj/AGehOKq0f4vLT1Zr2Y+RX7C+w8A1gaSasGtRUZpF/NZgzSAu4/Gc41Lg==" crossorigin=""></script>
+                        <script src="../assets/leaflet/jquery-1.9.1.min.js"></script> 
+                        <script src="../assets/leaflet/leaflet.js"></script>
                         <script type="text/javascript">
                             $(document).ready(function () {
                                 init_map();
