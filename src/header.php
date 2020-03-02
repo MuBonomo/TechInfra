@@ -3,7 +3,7 @@ echo'
     <!DOCTYPE html>
     <html lang="pt-BR">
         <head>
-            <title></title>
+            <title>TechInfra Solutions</title>
             <meta charset="UTF-8">
             <meta name="viewport" content="width=device-width, initial-scale=1">
             <link rel="stylesheet" href="../assets/css/uikit.css"/>
@@ -14,7 +14,7 @@ echo'
             <nav class="uk-navbar-container" uk-navbar style="background-color:#3399ff;">
 
                 <div class="uk-navbar-left">
-                    <a href="index.php"><img class="uk-margin-small-left" src="../img/Techinfra_b.png" style="width:80px"></a>
+                    <a href="index.php"><img class="uk-margin-small-left" src="../img/Techinfra_b_logo.png" style="width:80px"></a>
                 </div>
 
                 <div class="uk-navbar-right uk-margin-small-right">

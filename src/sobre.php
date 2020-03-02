@@ -20,8 +20,8 @@
 
 
         <main class="uk-container uk-container-large">
+            <h1 class="uk-text-center" style="margin-top:20px">Sobre Nós</h1>
         <br>
-
             <div class="" uk-grid style="display: flex">
                 <div class="uk-width-1-2@m">
                     <div class="uk-card uk-card-default uk-card-body" id="map">
